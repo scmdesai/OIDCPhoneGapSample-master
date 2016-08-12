@@ -1,4 +1,4 @@
-var oauth= new OAuthClient("http://IDSrv3:3333/core/connect/authorize");
+var oauth= new OAuthClient("https://ec2-52-43-115-207.us-west-2.compute.amazonaws.com:8089/api/oauth/authorize");
 var api = {
     authorize: function(options) {
         var deferred = $.Deferred();
