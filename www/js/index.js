@@ -38,8 +38,8 @@ var app = {
         var $loginStatus = $('#login p');
         $loginButton.on('click', function() {
           api.authorize({
-            client_id: 'implicitclient',
-            redirect_uri: 'http://localhost:21575/index.html',
+            client_id: '852347694fa54280bebf464cc386f660',
+            redirect_uri: 'https://tenant1.idcs.compute.oraclecloud.com:8943/ui/v1/signin',
             scope: 'openid profile read write email',
             response_type: 'id_token token'
           }).done(function(data) {
